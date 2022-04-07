@@ -3,7 +3,17 @@ body{
     
 }
 
+.small{
+    visibility: hidden;
+}
 
+.medium{
+    visibility: hidden;
+}
+
+.large{
+    
+}
 
 
 
@@ -12,12 +22,28 @@ body{
     body{
     background-color: red;
     }
+
+    .small{
+        visibility: visible;
+    }
+
+    .large{
+        visibility: hidden;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 300px)  {
 
     body{
     background-color: green;
+    }
+
+    .medium{
+        visibility: visible;
+    }
+
+    .large{
+        visibility: hidden;
     }
 }
 
@@ -27,4 +53,6 @@ body{
     body{
     background-color: blue;
     }
+
+    
 }
