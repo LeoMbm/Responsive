@@ -1,0 +1,22 @@
+body{
+
+    background-color: rebeccapurple;
+}
+
+
+
+
+
+@media all and (max-width: 300px)  {
+
+    body{
+    background-color: red;
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 300px)  {
+
+    body{
+    background-color: green;
+    }
+}
