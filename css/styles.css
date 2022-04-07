@@ -25,6 +25,7 @@ body{
 
     .small{
         visibility: visible;
+        font-size: 30px;
     }
 
     .large{
@@ -40,12 +41,14 @@ body{
 
     .medium{
         visibility: visible;
+        font-size: 50px;
+    }
     }
 
     .large{
         visibility: hidden;
     }
-}
+
 
 
 @media all and (min-width: 768px)  {
@@ -54,5 +57,9 @@ body{
     background-color: blue;
     }
 
+    .large{
+        visibility: visible;
+        font-size: 30px;
+    }
     
 }
